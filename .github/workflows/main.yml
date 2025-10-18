@@ -27,10 +27,4 @@ jobs:
       run: npm install
 
     - name: Executando os testes
-      run: npx cypress run --reporter junit --reporter-options "mochaFile=results/test-results.xml"
-
-    - name: Salvar resultados dos testes
-      uses: actions/upload-artifact@v4
-      with:
-        name: test-results
-        path: results/test-results.xml
+      run: npx cypress run
