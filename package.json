@@ -1,0 +1,22 @@
+{
+  "name": "pgats-automacao-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "cypress": "^13.7.3",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.18"
+  }
+}
