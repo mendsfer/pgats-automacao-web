@@ -25,8 +25,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Executando os testes
-      run: npx cypress run
+    - name: Executando o trabalho final
+      run: npm run test-trabalho-final
 
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
